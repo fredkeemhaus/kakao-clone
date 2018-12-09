@@ -8,14 +8,16 @@
     padding: 5px 10px;
     box-sizing: border-box;
     border-radius: 7px;
-    border: 0;
     background: #F1F2F3;
     font-size: 13px;
     text-align: center;
+    border: 1px solid #F1F2F3;
+    transition: all .2s linear;
 }
 
 .search-bar input:focus{
     outline: none;
+    border: 1px solid #ffe94a;
 }
 
 .search-bar i {
