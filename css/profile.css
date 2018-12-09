@@ -1,0 +1,77 @@
+.top-header--transparent {
+    background-color: transparent;
+}
+
+.profile .profile__header{
+    background: url(https://www.vactualpapers.com/web/wallpapers/modern-material-design-full-hd-wallpaper-no-256/thumbnail/lg.png) no-repeat ;
+    background-position: center center;
+    background-size: cover;
+    height: 65vh;
+    /* background-color: red; */
+    width: 100%;
+    position: relative;
+    top: -70px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile__header .profile__header-container {
+    text-align: center;
+    position: relative;
+    bottom: -60px;
+}
+
+.profile__header-container img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile .profile__container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__container input {
+    border: 1px solid #f2f2f2;
+    text-align: center;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.profile__actions {
+    display: flex;
+}
+
+.profile__action{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile__action i{
+    font-size: 20px;
+}
+
+.profile__action-circle {
+    background: #f2f2f2;
+    padding: 15px;
+    border-radius: 50%;
+    color: #523737;
+    margin-bottom: 15px;
+}
+
+.profile__action-title {
+    font-size: 12px;
+    font-weight: 600;
+}
